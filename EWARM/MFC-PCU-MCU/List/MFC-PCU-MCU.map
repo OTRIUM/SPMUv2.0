@@ -1,0 +1,406 @@
+###############################################################################
+#
+# IAR ELF Linker V7.50.2.10312/W32 for ARM                20/Jul/2018  17:18:33
+# Copyright 2007-2015 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\OTRIUM\Dropbox\OTRIUM\Projects\CyberX\MiningFarmContainer\PowerControlUnit\MCU\MFC-PCU-MCU\EWARM\MFC-PCU-MCU\Exe\MFC-PCU-MCU.out
+#    Map file     =  
+#        C:\Users\OTRIUM\Dropbox\OTRIUM\Projects\CyberX\MiningFarmContainer\PowerControlUnit\MCU\MFC-PCU-MCU\EWARM\MFC-PCU-MCU\List\MFC-PCU-MCU.map
+#    Command line =  
+#        C:\Users\OTRIUM\Dropbox\OTRIUM\Projects\CyberX\MiningFarmContainer\PowerControlUnit\MCU\MFC-PCU-MCU\EWARM\MFC-PCU-MCU\Obj\18b20_hal_lib.o
+#        C:\Users\OTRIUM\Dropbox\OTRIUM\Projects\CyberX\MiningFarmContainer\PowerControlUnit\MCU\MFC-PCU-MCU\EWARM\MFC-PCU-MCU\Obj\main.o
+#        C:\Users\OTRIUM\Dropbox\OTRIUM\Projects\CyberX\MiningFarmContainer\PowerControlUnit\MCU\MFC-PCU-MCU\EWARM\MFC-PCU-MCU\Obj\startup_stm32l100xb.o
+#        C:\Users\OTRIUM\Dropbox\OTRIUM\Projects\CyberX\MiningFarmContainer\PowerControlUnit\MCU\MFC-PCU-MCU\EWARM\MFC-PCU-MCU\Obj\stm32l1xx_hal.o
+#        C:\Users\OTRIUM\Dropbox\OTRIUM\Projects\CyberX\MiningFarmContainer\PowerControlUnit\MCU\MFC-PCU-MCU\EWARM\MFC-PCU-MCU\Obj\stm32l1xx_hal_adc.o
+#        C:\Users\OTRIUM\Dropbox\OTRIUM\Projects\CyberX\MiningFarmContainer\PowerControlUnit\MCU\MFC-PCU-MCU\EWARM\MFC-PCU-MCU\Obj\stm32l1xx_hal_adc_ex.o
+#        C:\Users\OTRIUM\Dropbox\OTRIUM\Projects\CyberX\MiningFarmContainer\PowerControlUnit\MCU\MFC-PCU-MCU\EWARM\MFC-PCU-MCU\Obj\stm32l1xx_hal_cortex.o
+#        C:\Users\OTRIUM\Dropbox\OTRIUM\Projects\CyberX\MiningFarmContainer\PowerControlUnit\MCU\MFC-PCU-MCU\EWARM\MFC-PCU-MCU\Obj\stm32l1xx_hal_dma.o
+#        C:\Users\OTRIUM\Dropbox\OTRIUM\Projects\CyberX\MiningFarmContainer\PowerControlUnit\MCU\MFC-PCU-MCU\EWARM\MFC-PCU-MCU\Obj\stm32l1xx_hal_flash.o
+#        C:\Users\OTRIUM\Dropbox\OTRIUM\Projects\CyberX\MiningFarmContainer\PowerControlUnit\MCU\MFC-PCU-MCU\EWARM\MFC-PCU-MCU\Obj\stm32l1xx_hal_flash_ex.o
+#        C:\Users\OTRIUM\Dropbox\OTRIUM\Projects\CyberX\MiningFarmContainer\PowerControlUnit\MCU\MFC-PCU-MCU\EWARM\MFC-PCU-MCU\Obj\stm32l1xx_hal_flash_ramfunc.o
+#        C:\Users\OTRIUM\Dropbox\OTRIUM\Projects\CyberX\MiningFarmContainer\PowerControlUnit\MCU\MFC-PCU-MCU\EWARM\MFC-PCU-MCU\Obj\stm32l1xx_hal_gpio.o
+#        C:\Users\OTRIUM\Dropbox\OTRIUM\Projects\CyberX\MiningFarmContainer\PowerControlUnit\MCU\MFC-PCU-MCU\EWARM\MFC-PCU-MCU\Obj\stm32l1xx_hal_msp.o
+#        C:\Users\OTRIUM\Dropbox\OTRIUM\Projects\CyberX\MiningFarmContainer\PowerControlUnit\MCU\MFC-PCU-MCU\EWARM\MFC-PCU-MCU\Obj\stm32l1xx_hal_pwr.o
+#        C:\Users\OTRIUM\Dropbox\OTRIUM\Projects\CyberX\MiningFarmContainer\PowerControlUnit\MCU\MFC-PCU-MCU\EWARM\MFC-PCU-MCU\Obj\stm32l1xx_hal_pwr_ex.o
+#        C:\Users\OTRIUM\Dropbox\OTRIUM\Projects\CyberX\MiningFarmContainer\PowerControlUnit\MCU\MFC-PCU-MCU\EWARM\MFC-PCU-MCU\Obj\stm32l1xx_hal_rcc.o
+#        C:\Users\OTRIUM\Dropbox\OTRIUM\Projects\CyberX\MiningFarmContainer\PowerControlUnit\MCU\MFC-PCU-MCU\EWARM\MFC-PCU-MCU\Obj\stm32l1xx_hal_rcc_ex.o
+#        C:\Users\OTRIUM\Dropbox\OTRIUM\Projects\CyberX\MiningFarmContainer\PowerControlUnit\MCU\MFC-PCU-MCU\EWARM\MFC-PCU-MCU\Obj\stm32l1xx_hal_tim.o
+#        C:\Users\OTRIUM\Dropbox\OTRIUM\Projects\CyberX\MiningFarmContainer\PowerControlUnit\MCU\MFC-PCU-MCU\EWARM\MFC-PCU-MCU\Obj\stm32l1xx_hal_tim_ex.o
+#        C:\Users\OTRIUM\Dropbox\OTRIUM\Projects\CyberX\MiningFarmContainer\PowerControlUnit\MCU\MFC-PCU-MCU\EWARM\MFC-PCU-MCU\Obj\stm32l1xx_hal_uart.o
+#        C:\Users\OTRIUM\Dropbox\OTRIUM\Projects\CyberX\MiningFarmContainer\PowerControlUnit\MCU\MFC-PCU-MCU\EWARM\MFC-PCU-MCU\Obj\stm32l1xx_it.o
+#        C:\Users\OTRIUM\Dropbox\OTRIUM\Projects\CyberX\MiningFarmContainer\PowerControlUnit\MCU\MFC-PCU-MCU\EWARM\MFC-PCU-MCU\Obj\system_stm32l1xx.o
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull -o
+#        C:\Users\OTRIUM\Dropbox\OTRIUM\Projects\CyberX\MiningFarmContainer\PowerControlUnit\MCU\MFC-PCU-MCU\EWARM\MFC-PCU-MCU\Exe\MFC-PCU-MCU.out
+#        --map
+#        C:\Users\OTRIUM\Dropbox\OTRIUM\Projects\CyberX\MiningFarmContainer\PowerControlUnit\MCU\MFC-PCU-MCU\EWARM\MFC-PCU-MCU\List\MFC-PCU-MCU.map
+#        --config
+#        C:\Users\OTRIUM\Dropbox\OTRIUM\Projects\CyberX\MiningFarmContainer\PowerControlUnit\MCU\MFC-PCU-MCU\EWARM/stm32l100xb_flash.icf
+#        --semihosting --entry __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0801ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x200027ff] { rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A1":                                       0xf4
+  .intvec            ro code  0x08000000    0xf4  startup_stm32l100xb.o [1]
+                            - 0x080000f4    0xf4
+
+"P1":                                     0x349c
+  .text              ro code  0x080000f4   0xcf8  stm32l1xx_hal_rcc.o [1]
+  .text              ro code  0x08000dec    0x70  stm32l1xx_hal.o [1]
+  .text              ro code  0x08000e5c   0x16a  stm32l1xx_hal_cortex.o [1]
+  .text              ro code  0x08000fc8   0x224  stm32l1xx_hal_msp.o [1]
+  .text              ro code  0x080011ec   0x1f0  stm32l1xx_hal_gpio.o [1]
+  .text              ro code  0x080013dc   0x20e  stm32l1xx_hal_dma.o [1]
+  .text              ro code  0x080015ec   0xb32  main.o [1]
+  .text              ro code  0x08002120   0xa58  stm32l1xx_hal_uart.o [1]
+  .text              ro code  0x08002b78   0x582  stm32l1xx_hal_adc.o [1]
+  .text              ro code  0x080030fc   0x120  18b20_hal_lib.o [1]
+  .rodata            const    0x0800321c    0x7c  stm32l1xx_hal_msp.o [1]
+  .rodata            const    0x08003298    0x70  main.o [1]
+  .text              ro code  0x08003308    0x64  system_stm32l1xx.o [1]
+  .text              ro code  0x0800336c    0x40  zero_init3.o [4]
+  .text              ro code  0x080033ac    0x38  stm32l1xx_it.o [1]
+  .text              ro code  0x080033e4    0x2c  copy_init3.o [4]
+  .text              ro code  0x08003410    0x28  data_init.o [4]
+  .iar.init_table    const    0x08003438    0x24  - Linker created -
+  .text              ro code  0x0800345c    0x1a  cmain.o [4]
+  .text              ro code  0x08003476     0x4  low_level_init.o [3]
+  .text              ro code  0x0800347a     0x4  exit.o [3]
+  .text              ro code  0x08003480     0xa  cexit.o [4]
+  .text              ro code  0x0800348c    0x14  exit.o [5]
+  .rodata            const    0x080034a0    0x10  system_stm32l1xx.o [1]
+  .text              ro code  0x080034b0    0x10  startup_stm32l100xb.o [1]
+  .rodata            const    0x080034c0     0xc  system_stm32l1xx.o [1]
+  .text              ro code  0x080034cc     0xc  cstartup_M.o [4]
+  .rodata            const    0x080034d8     0x8  system_stm32l1xx.o [1]
+  .text              ro code  0x080034e0     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x080034e4     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x080034e8     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x080034ec     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x080034f0     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x080034f4     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x080034f8     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x080034fc     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x08003500     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x08003504     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x08003508     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x0800350c     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x08003510     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x08003514     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x08003518     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x0800351c     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x08003520     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x08003524     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x08003528     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x0800352c     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x08003530     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x08003534     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x08003538     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x0800353c     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x08003540     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x08003544     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x08003548     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x0800354c     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x08003550     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x08003554     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x08003558     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x0800355c     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x08003560     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x08003564     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x08003568     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x0800356c     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x08003570     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x08003574     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x08003578     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x0800357c     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x08003580     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x08003584     0x4  startup_stm32l100xb.o [1]
+  .text              ro code  0x08003588     0x4  startup_stm32l100xb.o [1]
+  Initializer bytes  const    0x0800358c     0x4  <for P2-1>
+  .rodata            const    0x08003590     0x0  zero_init3.o [4]
+  .rodata            const    0x08003590     0x0  copy_init3.o [4]
+                            - 0x08003590  0x349c
+
+"P2", part 1 of 3:                           0x4
+  P2-1                        0x20000000     0x4  <Init block>
+    .data            inited   0x20000000     0x4  system_stm32l1xx.o [1]
+                            - 0x20000004     0x4
+
+"P2", part 2 of 3:                         0x400
+  CSTACK                      0x20000008   0x400  <Block>
+    CSTACK           uninit   0x20000008   0x400  <Block tail>
+                            - 0x20000408   0x400
+
+"P2", part 3 of 3:                        0x20e8
+  .bss               zero     0x20000408  0x1f40  main.o [1]
+  .bss               zero     0x20002348    0x54  main.o [1]
+  .bss               zero     0x2000239c    0x44  main.o [1]
+  .bss               zero     0x200023e0    0x40  main.o [1]
+  .bss               zero     0x20002420    0x40  main.o [1]
+  .bss               zero     0x20002460    0x28  main.o [1]
+  .bss               zero     0x20002488    0x28  main.o [1]
+  .bss               zero     0x200024b0    0x18  main.o [1]
+  .bss               zero     0x200024c8    0x10  18b20_hal_lib.o [1]
+  .bss               zero     0x200024d8     0x4  main.o [1]
+  .bss               zero     0x200024dc     0x4  main.o [1]
+  .bss               zero     0x200024e0     0x4  main.o [1]
+  .bss               zero     0x200024e4     0x4  stm32l1xx_hal.o [1]
+  .bss               zero     0x200024e8     0x2  main.o [1]
+  .bss               zero     0x200024ea     0x1  main.o [1]
+  .bss               zero     0x200024eb     0x1  main.o [1]
+  .bss               zero     0x200024ec     0x1  main.o [1]
+  .bss               zero     0x200024ed     0x1  main.o [1]
+  .bss               zero     0x200024ee     0x1  main.o [1]
+                            - 0x200024ef  0x20e7
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x20e7:
+          0x20000408  0x20e7
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x4:
+          0x0800358c     0x4
+    1 destination range, total size 0x4:
+          0x20000000     0x4
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+C:\Users\OTRIUM\Dropbox\OTRIUM\Projects\CyberX\MiningFarmContainer\PowerControlUnit\MCU\MFC-PCU-MCU\EWARM\MFC-PCU-MCU\Obj: [1]
+    18b20_hal_lib.o             288                16
+    main.o                    2 866      112    8 403
+    startup_stm32l100xb.o       432
+    stm32l1xx_hal.o             112                 4
+    stm32l1xx_hal_adc.o       1 410
+    stm32l1xx_hal_cortex.o      362
+    stm32l1xx_hal_dma.o         526
+    stm32l1xx_hal_gpio.o        496
+    stm32l1xx_hal_msp.o         548      124
+    stm32l1xx_hal_rcc.o       3 320
+    stm32l1xx_hal_uart.o      2 648
+    stm32l1xx_it.o               56
+    system_stm32l1xx.o          100       40        4
+    -------------------------------------------------
+    Total:                   13 164      276    8 427
+
+command line: [2]
+    -------------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    exit.o                        4
+    low_level_init.o              4
+    -------------------------------------------------
+    Total:                        8
+
+rt7M_tl.a: [4]
+    cexit.o                      10
+    cmain.o                      26
+    copy_init3.o                 44
+    cstartup_M.o                 12
+    data_init.o                  40
+    zero_init3.o                 64
+    -------------------------------------------------
+    Total:                      196
+
+shb_l.a: [5]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Gaps                         12
+    Linker created                        36    1 024
+-----------------------------------------------------
+    Grand Total:             13 400      312    9 451
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+.iar.init_table$$Base   0x08003438           --   Gb  - Linker created -
+.iar.init_table$$Limit  0x0800345c           --   Gb  - Linker created -
+?main                   0x0800345d          Code  Gb  cmain.o [4]
+ADC_DMAConvCplt         0x08003061    0x6c  Code  Lc  stm32l1xx_hal_adc.o [1]
+ADC_DMAError            0x080030dd    0x1e  Code  Lc  stm32l1xx_hal_adc.o [1]
+ADC_DMAHalfConvCplt     0x080030cd     0xe  Code  Lc  stm32l1xx_hal_adc.o [1]
+ADC_Data                0x20002460    0x28  Data  Gb  main.o [1]
+ADC_Data_Array          0x20000408  0x1f40  Data  Gb  main.o [1]
+ADC_Data_Array_Approx   0x20002488    0x28  Data  Gb  main.o [1]
+ADC_Enable              0x08002fcd    0x72  Code  Gb  stm32l1xx_hal_adc.o [1]
+AHBPrescTable           0x080034a0    0x10  Data  Gb  system_stm32l1xx.o [1]
+APBPrescTable           0x080034d8     0x8  Data  Gb  system_stm32l1xx.o [1]
+BusFault_Handler        0x080033b3     0x2  Code  Gb  stm32l1xx_it.o [1]
+CSTACK$$Base            0x20000008           --   Gb  - Linker created -
+CSTACK$$Limit           0x20000408           --   Gb  - Linker created -
+DMA1_Channel1_IRQHandler
+                        0x080033c9     0xa  Code  Gb  stm32l1xx_it.o [1]
+DMA_SetConfig           0x080015bf    0x2c  Code  Lc  stm32l1xx_hal_dma.o [1]
+Data_to_2Bytes          0x080031f5    0x28  Code  Gb  18b20_hal_lib.o [1]
+DebugMon_Handler        0x080033b9     0x2  Code  Gb  stm32l1xx_it.o [1]
+HAL_ADC_ConfigChannel   0x08002e09   0x1c4  Code  Gb  stm32l1xx_hal_adc.o [1]
+HAL_ADC_ConvCpltCallback
+                        0x080019ad   0x104  Code  Gb  main.o [1]
+HAL_ADC_ConvHalfCpltCallback
+                        0x08002e05     0x2  Code  Wk  stm32l1xx_hal_adc.o [1]
+HAL_ADC_ErrorCallback   0x08002e07     0x2  Code  Wk  stm32l1xx_hal_adc.o [1]
+HAL_ADC_Init            0x08002b79   0x1c2  Code  Gb  stm32l1xx_hal_adc.o [1]
+HAL_ADC_MspInit         0x0800106f    0xb8  Code  Gb  stm32l1xx_hal_msp.o [1]
+HAL_ADC_Start_DMA       0x08002d3b    0xca  Code  Gb  stm32l1xx_hal_adc.o [1]
+HAL_DMA_IRQHandler      0x080014f1    0xce  Code  Gb  stm32l1xx_hal_dma.o [1]
+HAL_DMA_Init            0x080013dd    0x74  Code  Gb  stm32l1xx_hal_dma.o [1]
+HAL_DMA_Start_IT        0x08001459    0x98  Code  Gb  stm32l1xx_hal_dma.o [1]
+HAL_Delay               0x08000e39    0x1a  Code  Wk  stm32l1xx_hal.o [1]
+HAL_GPIO_Init           0x080011ed   0x1b4  Code  Gb  stm32l1xx_hal_gpio.o [1]
+HAL_GPIO_WritePin       0x080013a1    0x14  Code  Gb  stm32l1xx_hal_gpio.o [1]
+HAL_GetTick             0x08000e33     0x6  Code  Wk  stm32l1xx_hal.o [1]
+HAL_HalfDuplex_Init     0x08002191    0x76  Code  Gb  stm32l1xx_hal_uart.o [1]
+HAL_IncTick             0x08000e27     0xc  Code  Wk  stm32l1xx_hal.o [1]
+HAL_Init                0x08000ded    0x16  Code  Gb  stm32l1xx_hal.o [1]
+HAL_InitTick            0x08000e03    0x24  Code  Wk  stm32l1xx_hal.o [1]
+HAL_MspInit             0x08000fc9    0xa6  Code  Gb  stm32l1xx_hal_msp.o [1]
+HAL_NVIC_EnableIRQ      0x08000f5f     0xe  Code  Gb  stm32l1xx_hal_cortex.o [1]
+HAL_NVIC_SetPriority    0x08000f39    0x26  Code  Gb  stm32l1xx_hal_cortex.o [1]
+HAL_NVIC_SetPriorityGrouping
+                        0x08000f2d     0xc  Code  Gb  stm32l1xx_hal_cortex.o [1]
+HAL_RCC_ClockConfig     0x0800097f   0x2a0  Code  Gb  stm32l1xx_hal_rcc.o [1]
+HAL_RCC_GetHCLKFreq     0x08000cc7     0x6  Code  Gb  stm32l1xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK1Freq    0x08000ccd    0x20  Code  Gb  stm32l1xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK2Freq    0x08000cf9    0x20  Code  Gb  stm32l1xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq
+                        0x08000c1f    0xa8  Code  Gb  stm32l1xx_hal_rcc.o [1]
+HAL_RCC_OscConfig       0x080000f5   0x88a  Code  Gb  stm32l1xx_hal_rcc.o [1]
+HAL_SYSTICK_CLKSourceConfig
+                        0x08000f79    0x20  Code  Gb  stm32l1xx_hal_cortex.o [1]
+HAL_SYSTICK_Callback    0x08000fc5     0x2  Code  Wk  stm32l1xx_hal_cortex.o [1]
+HAL_SYSTICK_Config      0x08000f6d     0xc  Code  Gb  stm32l1xx_hal_cortex.o [1]
+HAL_SYSTICK_IRQHandler  0x08000fbd     0x8  Code  Gb  stm32l1xx_hal_cortex.o [1]
+HAL_UART_ErrorCallback  0x0800261d     0x2  Code  Wk  stm32l1xx_hal_uart.o [1]
+HAL_UART_IRQHandler     0x08002501   0x11a  Code  Gb  stm32l1xx_hal_uart.o [1]
+HAL_UART_Init           0x08002121    0x70  Code  Gb  stm32l1xx_hal_uart.o [1]
+HAL_UART_MspInit        0x08001127    0x98  Code  Gb  stm32l1xx_hal_msp.o [1]
+HAL_UART_Receive        0x08002303   0x106  Code  Gb  stm32l1xx_hal_uart.o [1]
+HAL_UART_Receive_IT     0x08002479    0x88  Code  Gb  stm32l1xx_hal_uart.o [1]
+HAL_UART_RxCpltCallback
+                        0x08001919    0x94  Code  Gb  main.o [1]
+HAL_UART_Transmit       0x08002207    0xfc  Code  Gb  stm32l1xx_hal_uart.o [1]
+HAL_UART_Transmit_IT    0x08002409    0x70  Code  Gb  stm32l1xx_hal_uart.o [1]
+HAL_UART_TxCpltCallback
+                        0x0800261b     0x2  Code  Wk  stm32l1xx_hal_uart.o [1]
+HardFault_Handler       0x080033af     0x2  Code  Gb  stm32l1xx_it.o [1]
+MX_ADC_Init             0x08001c51   0x310  Code  Lc  main.o [1]
+MX_DMA_Init             0x08001ff5    0x2c  Code  Lc  main.o [1]
+MX_GPIO_Init            0x08002021    0x98  Code  Lc  main.o [1]
+MX_USART1_UART_Init     0x08001f61    0x4a  Code  Lc  main.o [1]
+MX_USART3_UART_Init     0x08001fab    0x4a  Code  Lc  main.o [1]
+MemManage_Handler       0x080033b1     0x2  Code  Gb  stm32l1xx_it.o [1]
+NMI_Handler             0x080033ad     0x2  Code  Gb  stm32l1xx_it.o [1]
+NVIC_EnableIRQ          0x08000e85    0x14  Code  Lc  stm32l1xx_hal_cortex.o [1]
+NVIC_EncodePriority     0x08000ebf    0x3e  Code  Lc  stm32l1xx_hal_cortex.o [1]
+NVIC_GetPriorityGrouping
+                        0x08000e7b     0xa  Code  Lc  stm32l1xx_hal_cortex.o [1]
+NVIC_SetPriority        0x08000e99    0x26  Code  Lc  stm32l1xx_hal_cortex.o [1]
+NVIC_SetPriorityGrouping
+                        0x08000e5d    0x1e  Code  Lc  stm32l1xx_hal_cortex.o [1]
+PLLMulTable             0x080034c0     0xc  Data  Gb  system_stm32l1xx.o [1]
+PendSV_Handler          0x080033bb     0x2  Code  Gb  stm32l1xx_it.o [1]
+RCC_SetFlashLatencyFromMSIRange
+                        0x08000d29    0x98  Code  Lc  stm32l1xx_hal_rcc.o [1]
+RPI_ReceiveBuffer       0x200024d8     0x4  Data  Gb  main.o [1]
+RPI_TransmitBuffer      0x200024dc     0x4  Data  Gb  main.o [1]
+Region$$Table$$Base     0x08003438           --   Gb  - Linker created -
+Region$$Table$$Limit    0x0800345c           --   Gb  - Linker created -
+ResetChip18b20          0x080030fd    0x86  Code  Gb  18b20_hal_lib.o [1]
+SVC_Handler             0x080033b7     0x2  Code  Gb  stm32l1xx_it.o [1]
+SysTick_Config          0x08000efd    0x30  Code  Lc  stm32l1xx_hal_cortex.o [1]
+SysTick_Handler         0x080033bd     0xc  Code  Gb  stm32l1xx_it.o [1]
+SystemClock_Config      0x08001ba9    0xa0  Code  Gb  main.o [1]
+SystemCoreClock         0x20000000     0x4  Data  Gb  system_stm32l1xx.o [1]
+SystemInit              0x08003309    0x4c  Code  Gb  system_stm32l1xx.o [1]
+TemperatureSense18b20   0x080031d1    0x1a  Code  Gb  18b20_hal_lib.o [1]
+UART_EndTransmit_IT     0x0800277b    0x30  Code  Lc  stm32l1xx_hal_uart.o [1]
+UART_Receive_IT         0x080027ab    0xc4  Code  Lc  stm32l1xx_hal_uart.o [1]
+UART_Request_Handler    0x080016ed   0x22c  Code  Gb  main.o [1]
+UART_SetConfig          0x0800286f   0x2fe  Code  Lc  stm32l1xx_hal_uart.o [1]
+UART_Transmit_IT        0x08002701    0x7a  Code  Lc  stm32l1xx_hal_uart.o [1]
+UART_WaitOnFlagUntilTimeout
+                        0x0800261f    0xe2  Code  Lc  stm32l1xx_hal_uart.o [1]
+USART1_IRQHandler       0x080033d3     0xa  Code  Gb  stm32l1xx_it.o [1]
+UsageFault_Handler      0x080033b5     0x2  Code  Gb  stm32l1xx_it.o [1]
+WriteByte18b20          0x08003183    0x4e  Code  Gb  18b20_hal_lib.o [1]
+_Error_Handler          0x0800211d     0x2  Code  Gb  main.o [1]
+__cmain                 0x0800345d          Code  Gb  cmain.o [4]
+__exit                  0x0800348d    0x14  Code  Gb  exit.o [5]
+__iar_copy_init3        0x080033e5    0x2c  Code  Gb  copy_init3.o [4]
+__iar_data_init3        0x08003411    0x28  Code  Gb  data_init.o [4]
+__iar_program_start     0x080034cd          Code  Gb  cstartup_M.o [4]
+__iar_zero_init3        0x0800336d    0x40  Code  Gb  zero_init3.o [4]
+__low_level_init        0x08003477     0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000          Data  Gb  startup_stm32l100xb.o [1]
+_call_main              0x08003469          Code  Gb  cmain.o [4]
+_exit                   0x08003481          Code  Gb  cexit.o [4]
+_main                   0x08003473          Code  Gb  cmain.o [4]
+buffer                  0x200024e0     0x4  Data  Gb  main.o [1]
+dataArray               0x200024b0    0x18  Data  Gb  main.o [1]
+dataArrayIndex          0x200024eb     0x1  Data  Gb  main.o [1]
+delay                   0x080015ed    0x12  Code  Gb  main.o [1]
+exit                    0x0800347b     0x4  Code  Gb  exit.o [3]
+hadc                    0x20002348    0x54  Data  Gb  main.o [1]
+hdma_adc                0x2000239c    0x44  Data  Gb  main.o [1]
+huart1                  0x200023e0    0x40  Data  Gb  main.o [1]
+huart3                  0x20002420    0x40  Data  Gb  main.o [1]
+i                       0x200024ea     0x1  Data  Gb  main.o [1]
+iCounter                0x200024ec     0x1  Data  Gb  main.o [1]
+jCounter                0x200024ed     0x1  Data  Gb  main.o [1]
+main                    0x08001ab1    0xf4  Code  Gb  main.o [1]
+receiveDataUART         0x200024c8    0x10  Data  Gb  18b20_hal_lib.o [1]
+sendData                0x08001601    0xec  Code  Gb  main.o [1]
+start                   0x200024ee     0x1  Data  Gb  main.o [1]
+temperature18b20        0x200024e8     0x2  Data  Gb  main.o [1]
+uwTick                  0x200024e4     0x4  Data  Gb  stm32l1xx_hal.o [1]
+
+
+[1] = C:\Users\OTRIUM\Dropbox\OTRIUM\Projects\CyberX\MiningFarmContainer\PowerControlUnit\MCU\MFC-PCU-MCU\EWARM\MFC-PCU-MCU\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  13 400 bytes of readonly  code memory
+     312 bytes of readonly  data memory
+   9 451 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
